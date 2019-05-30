@@ -1,0 +1,997 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:2:1-145:12
+INJECTED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:2:1-145:12
+INJECTED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:2:1-145:12
+INJECTED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:2:1-145:12
+MERGED from [com.android.support:multidex:1.0.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/083fd22f6948fe101905fa6b56ea2538/AndroidManifest.xml:17:1-22:12
+MERGED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:2:1-75:12
+MERGED from [com.infideap.drawerbehavior:drawer-behavior:0.1.5] /home/faizan/.gradle/caches/transforms-2/files-2.1/bb8efe73a445344355c5f01c21bbfb74/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:design:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/3fae63712514bdd8e72fef2bfed2a51e/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:mediarouter-v7:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/e186ec9dadde2cf3b9d7339a75ffe292/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.f0ris.sweetalert:library:1.5.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/a14baaac9643722019816fcf99dc61b1/AndroidManifest.xml:2:1-13:12
+MERGED from [com.pnikosis:materialish-progress:1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/ad0c1ab06a7b619f26ef51b47ab4907e/AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/cbee498adeb6eebcd6201b7bb78163d8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/0e9529cb9414bd4fc09cfd9ec4692aca/AndroidManifest.xml:2:1-11:12
+MERGED from [com.firebaseui:firebase-ui-database:3.1.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/fcbe1b26c05420ccd08c22745ecd71e8/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-database:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/4134858bc6c244b9b65e2519901b3046/AndroidManifest.xml:15:1-36:12
+MERGED from [com.google.firebase:firebase-auth:16.2.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/f9f03c853ac6f17b1531e64fbd87e4de/AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-core:16.0.7] /home/faizan/.gradle/caches/transforms-2/files-2.1/a065556161b616028139c69d9c642d6d/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-storage:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/3d7f80ea10fd777144c9ffa1a8de9bdd/AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/d83e254606cd73fd69383d0fe2a332a7/AndroidManifest.xml:17:1-39:12
+MERGED from [com.github.d-max:spots-dialog:1.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/e5f069eeeb7939019189b2edb13d3764/AndroidManifest.xml:2:1-13:12
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/d5eea78e2dc52d8ed086d6f644763df7/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/2cf9747c86fc90d31696fc20d8f340a9/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/6c4db45cfb6055c1c7ba2e90ae250630/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/b0664da6747b79950f2d47530b7fb86d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/db2cdf58898018c3e3912dc2c560a5f4/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/a47e2df0d220952d1299e2c1be57c91f/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/006dd13e95d797a9bd7eca8a2217dd17/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] /home/faizan/.gradle/caches/transforms-2/files-2.1/ab77a35dd20863eb5e7aa866b843470b/AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/c4fa581a2efa190c586f821059f2fd24/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/c56e02cdecbdd501406bd789de4ff8b4/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/b149a1ee8532936be0587b06cc300402/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/b4daf2f5e8141dc7da7fe88028474c28/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/0bd6c8dc5d5fa5e4f0cc0afe05a9c6b0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/60370ef29579168f73a8d3bbc321d078/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/9cc7d48def311fa1a15c5bc9ad3980a4/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/50292bded9b78585a32a39bfaf21a235/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/9ad5f5e2fc34d5ec39dc861fdda9a0b8/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/64c28a829c9cf6b848f271f67402033a/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/03617737213144dd7d445dbf86e149a2/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/72913bef9068fe1fb355b65e15c8e50d/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/3b183feba3bc60a712052bb28c4df34d/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/2820cec2783fac0a2164af607a15ceac/AndroidManifest.xml:17:1-22:12
+MERGED from [com.firebaseui:firebase-ui-common:3.1.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/1c8b3cb8ad05aa6edd096eb96db6e0ed/AndroidManifest.xml:2:1-12:12
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/7d80a588d3009e32a8b87f519a6764b6/AndroidManifest.xml:17:1-30:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/6c27b272c9c5e7f816b2601b9195a650/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/870f16bfed566de783ae348a53ed7b0c/AndroidManifest.xml:2:1-12:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/faizan/.gradle/caches/transforms-2/files-2.1/064a4b960d29348af9fa7d1725eb5f32/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/080ef07031b009d82e2f9712ae47fffe/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/0f153f095c57ffe0b79b4b7fb6d33d4c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/21dd2f6d0d1681b860df538dc5c5d07f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:palette-v7:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/4e32312b5e1e77eba77c9ade17023d9f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/182c12d33ec93db179875af7adde56d6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/a31efa87b0f8d33df023f8aab3565b2c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:27.0.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/2421476ee4545d6c993b78fd4aee6941/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/2d85759175ff6f989ec22e1a2c9b2468/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/1d262cd70d080a7b888ab2829c5387dd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/9db65eb0cab56f80d7ce818b2bcfa976/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/71a1b0f48ff6ac60acfef6dd207bb4a0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/79c3edd3a3b496189c37316ea4e46847/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/1f1a05ebcd610733ff34ad7d51e01f02/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/ce436422b2b4588bb98e4e0d5d308e2b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/f28e759cf50c78ec6e9c33038bb5e45e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/b7e3444cbf8054d3fc8085d73ceed90b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/d6de0b9088534be12286f56f64d51ca4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/04c75418dcc23360cbbd4384315f53b2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/038b602fa8a941fff692f8c29eae2b3a/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/91a96a7245835148086085320a3a7a78/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db-framework:1.1.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/0ed0fd4a6a464bc31b9a06997395f348/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db:1.1.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/fd019d43a8f8b90625c920c7c14e034a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/2b5179596b19434eb75ec9173efeb178/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/6c7a6ebd118408ecda0d199741ad94db/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/f273964f8ce4cfe18fae81b995e93299/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/acc6e9051ee308757b056e0cb1d3ad05/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/34ffd44f4e4fbc4ece1e3bdab559d3d1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/3897e5e41f9b6c7004f26e17ac330796/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:exifinterface:27.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/3d6210c7b7509ceca86593b3e6409ddf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/59becb4f4463ee5ab5208b9ca7230584/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/7461a7de285806acfd2623e8ec228745/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/0f751b4e9b786b88bcb911882599368b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/0625db01fe2da0d6e7871bcf6c45cee5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/92a4bafecb47ff9ce8fb4654f7f96189/AndroidManifest.xml:2:1-7:12
+INJECTED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:2:1-145:12
+INJECTED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:2:1-145:12
+INJECTED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:2:1-145:12
+	package
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:4:5-54
+		INJECTED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml
+		INJECTED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:2:1-145:12
+		INJECTED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:2:1-145:12
+		INJECTED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:13:5-67
+MERGED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:13:5-67
+MERGED from [com.firebaseui:firebase-ui-database:3.1.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/fcbe1b26c05420ccd08c22745ecd71e8/AndroidManifest.xml:11:5-67
+MERGED from [com.firebaseui:firebase-ui-database:3.1.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/fcbe1b26c05420ccd08c22745ecd71e8/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-database:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/4134858bc6c244b9b65e2519901b3046/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/4134858bc6c244b9b65e2519901b3046/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-storage:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/3d7f80ea10fd777144c9ffa1a8de9bdd/AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/3d7f80ea10fd777144c9ffa1a8de9bdd/AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] /home/faizan/.gradle/caches/transforms-2/files-2.1/ab77a35dd20863eb5e7aa866b843470b/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] /home/faizan/.gradle/caches/transforms-2/files-2.1/ab77a35dd20863eb5e7aa866b843470b/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/c4fa581a2efa190c586f821059f2fd24/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/c4fa581a2efa190c586f821059f2fd24/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/b149a1ee8532936be0587b06cc300402/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/b149a1ee8532936be0587b06cc300402/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/b4daf2f5e8141dc7da7fe88028474c28/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/b4daf2f5e8141dc7da7fe88028474c28/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:7:22-78
+application
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:9:5-143:19
+MERGED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:15:5-73:19
+MERGED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:15:5-73:19
+MERGED from [com.infideap.drawerbehavior:drawer-behavior:0.1.5] /home/faizan/.gradle/caches/transforms-2/files-2.1/bb8efe73a445344355c5f01c21bbfb74/AndroidManifest.xml:11:5-53
+MERGED from [com.infideap.drawerbehavior:drawer-behavior:0.1.5] /home/faizan/.gradle/caches/transforms-2/files-2.1/bb8efe73a445344355c5f01c21bbfb74/AndroidManifest.xml:11:5-53
+MERGED from [com.android.support:design:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/3fae63712514bdd8e72fef2bfed2a51e/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/3fae63712514bdd8e72fef2bfed2a51e/AndroidManifest.xml:22:5-20
+MERGED from [com.github.f0ris.sweetalert:library:1.5.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/a14baaac9643722019816fcf99dc61b1/AndroidManifest.xml:11:5-20
+MERGED from [com.github.f0ris.sweetalert:library:1.5.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/a14baaac9643722019816fcf99dc61b1/AndroidManifest.xml:11:5-20
+MERGED from [com.pnikosis:materialish-progress:1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/ad0c1ab06a7b619f26ef51b47ab4907e/AndroidManifest.xml:11:5-15:19
+MERGED from [com.pnikosis:materialish-progress:1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/ad0c1ab06a7b619f26ef51b47ab4907e/AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/0e9529cb9414bd4fc09cfd9ec4692aca/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/0e9529cb9414bd4fc09cfd9ec4692aca/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-database:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/4134858bc6c244b9b65e2519901b3046/AndroidManifest.xml:28:5-34:19
+MERGED from [com.google.firebase:firebase-database:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/4134858bc6c244b9b65e2519901b3046/AndroidManifest.xml:28:5-34:19
+MERGED from [com.google.firebase:firebase-auth:16.2.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/f9f03c853ac6f17b1531e64fbd87e4de/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:16.2.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/f9f03c853ac6f17b1531e64fbd87e4de/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-core:16.0.7] /home/faizan/.gradle/caches/transforms-2/files-2.1/a065556161b616028139c69d9c642d6d/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.7] /home/faizan/.gradle/caches/transforms-2/files-2.1/a065556161b616028139c69d9c642d6d/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-storage:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/3d7f80ea10fd777144c9ffa1a8de9bdd/AndroidManifest.xml:29:5-35:19
+MERGED from [com.google.firebase:firebase-storage:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/3d7f80ea10fd777144c9ffa1a8de9bdd/AndroidManifest.xml:29:5-35:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/d83e254606cd73fd69383d0fe2a332a7/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/d83e254606cd73fd69383d0fe2a332a7/AndroidManifest.xml:22:5-37:19
+MERGED from [com.github.d-max:spots-dialog:1.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/e5f069eeeb7939019189b2edb13d3764/AndroidManifest.xml:11:5-20
+MERGED from [com.github.d-max:spots-dialog:1.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/e5f069eeeb7939019189b2edb13d3764/AndroidManifest.xml:11:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/d5eea78e2dc52d8ed086d6f644763df7/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/d5eea78e2dc52d8ed086d6f644763df7/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/db2cdf58898018c3e3912dc2c560a5f4/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/db2cdf58898018c3e3912dc2c560a5f4/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] /home/faizan/.gradle/caches/transforms-2/files-2.1/ab77a35dd20863eb5e7aa866b843470b/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] /home/faizan/.gradle/caches/transforms-2/files-2.1/ab77a35dd20863eb5e7aa866b843470b/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/c4fa581a2efa190c586f821059f2fd24/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/c4fa581a2efa190c586f821059f2fd24/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/c56e02cdecbdd501406bd789de4ff8b4/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/c56e02cdecbdd501406bd789de4ff8b4/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/b149a1ee8532936be0587b06cc300402/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/b149a1ee8532936be0587b06cc300402/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/b4daf2f5e8141dc7da7fe88028474c28/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/b4daf2f5e8141dc7da7fe88028474c28/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/0bd6c8dc5d5fa5e4f0cc0afe05a9c6b0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/0bd6c8dc5d5fa5e4f0cc0afe05a9c6b0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/60370ef29579168f73a8d3bbc321d078/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/60370ef29579168f73a8d3bbc321d078/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/9cc7d48def311fa1a15c5bc9ad3980a4/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/9cc7d48def311fa1a15c5bc9ad3980a4/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/50292bded9b78585a32a39bfaf21a235/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/50292bded9b78585a32a39bfaf21a235/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/9ad5f5e2fc34d5ec39dc861fdda9a0b8/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/9ad5f5e2fc34d5ec39dc861fdda9a0b8/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/64c28a829c9cf6b848f271f67402033a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/64c28a829c9cf6b848f271f67402033a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/03617737213144dd7d445dbf86e149a2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/03617737213144dd7d445dbf86e149a2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/72913bef9068fe1fb355b65e15c8e50d/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/72913bef9068fe1fb355b65e15c8e50d/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/3b183feba3bc60a712052bb28c4df34d/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/3b183feba3bc60a712052bb28c4df34d/AndroidManifest.xml:22:5-26:19
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/7d80a588d3009e32a8b87f519a6764b6/AndroidManifest.xml:22:5-28:19
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/7d80a588d3009e32a8b87f519a6764b6/AndroidManifest.xml:22:5-28:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/870f16bfed566de783ae348a53ed7b0c/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/870f16bfed566de783ae348a53ed7b0c/AndroidManifest.xml:10:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/faizan/.gradle/caches/transforms-2/files-2.1/064a4b960d29348af9fa7d1725eb5f32/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/faizan/.gradle/caches/transforms-2/files-2.1/064a4b960d29348af9fa7d1725eb5f32/AndroidManifest.xml:7:5-12:19
+MERGED from [com.android.support:support-compat:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/04c75418dcc23360cbbd4384315f53b2/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/04c75418dcc23360cbbd4384315f53b2/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/038b602fa8a941fff692f8c29eae2b3a/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/038b602fa8a941fff692f8c29eae2b3a/AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/3897e5e41f9b6c7004f26e17ac330796/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/3897e5e41f9b6c7004f26e17ac330796/AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/04c75418dcc23360cbbd4384315f53b2/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:12:9-41
+	android:roundIcon
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:13:9-54
+	android:icon
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:11:9-43
+		REJECTED from [com.pnikosis:materialish-progress:1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/ad0c1ab06a7b619f26ef51b47ab4907e/AndroidManifest.xml:13:9-45
+	android:allowBackup
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:15:9-40
+	tools:replace
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:16:9-37
+activity#com.autocracy.faizan.login_registration.ScholarshipLogin2
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:17:9-64
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:17:19-52
+activity#com.autocracy.faizan.login_registration.MyProfile
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:18:9-47
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:18:19-44
+activity#com.autocracy.faizan.login_registration.Disabled
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:19:9-46
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:19:19-43
+activity#com.autocracy.faizan.login_registration.School
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:20:9-44
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:20:19-41
+activity#com.autocracy.faizan.login_registration.Minority
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:21:9-46
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:21:19-43
+activity#com.autocracy.faizan.login_registration.Talent
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:22:9-44
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:22:19-41
+activity#com.autocracy.faizan.login_registration.International
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:23:9-51
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:23:19-48
+activity#com.autocracy.faizan.login_registration.MeansBased
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:24:9-48
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:24:19-45
+activity#com.autocracy.faizan.login_registration.MeritBased
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:25:9-48
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:25:19-45
+activity#com.autocracy.faizan.login_registration.CollegeBased
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:26:9-50
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:26:19-47
+activity#com.autocracy.faizan.login_registration.ScholarshipMainpage
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:27:9-57
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:27:19-54
+activity#com.autocracy.faizan.login_registration.ScholarshipForm
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:28:9-53
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:28:19-50
+activity#com.autocracy.faizan.login_registration.ScholarshipLogin
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:29:9-54
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:29:19-51
+activity#com.autocracy.faizan.login_registration.ScholarshipModule
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:30:9-55
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:30:19-52
+activity#com.autocracy.faizan.login_registration.GovernmentPrograms
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:31:9-33:52
+	android:screenOrientation
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:33:13-49
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:32:13-47
+activity#com.autocracy.faizan.login_registration.SelectedJobs
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:34:9-36:52
+	android:screenOrientation
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:36:13-49
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:35:13-41
+activity#com.autocracy.faizan.login_registration.AppliedJobs
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:37:9-39:52
+	android:screenOrientation
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:39:13-49
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:38:13-40
+activity#com.autocracy.faizan.login_registration.JobStatus
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:40:9-42:52
+	android:screenOrientation
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:42:13-49
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:41:13-38
+activity#com.autocracy.faizan.login_registration.UserNotifications
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:43:9-45:52
+	android:screenOrientation
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:45:13-49
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:44:13-46
+activity#com.autocracy.faizan.login_registration.ViewSelectedCandidates
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:46:9-48:52
+	android:screenOrientation
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:48:13-49
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:47:13-51
+activity#com.autocracy.faizan.login_registration.SelectedCandidates
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:49:9-51:52
+	android:screenOrientation
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:51:13-49
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:50:13-47
+activity#com.autocracy.faizan.login_registration.Fetch
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:52:9-54:52
+	android:screenOrientation
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:54:13-49
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:53:13-34
+activity#com.autocracy.faizan.login_registration.Donation
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:55:9-57:52
+	android:screenOrientation
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:57:13-49
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:56:13-37
+activity#com.autocracy.faizan.login_registration.CheckingUser
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:58:9-60:52
+	android:screenOrientation
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:60:13-49
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:59:13-41
+activity#com.autocracy.faizan.login_registration.HomepageCN
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:61:9-63:52
+	android:screenOrientation
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:63:13-49
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:62:13-39
+activity#com.autocracy.faizan.login_registration.HomepageUser
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:64:9-66:52
+	android:screenOrientation
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:66:13-49
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:65:13-41
+activity#com.autocracy.faizan.login_registration.ViewAppliedCandidateInfo
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:67:9-69:52
+	android:screenOrientation
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:69:13-49
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:68:13-53
+activity#com.autocracy.faizan.login_registration.Uploader
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:70:9-73:52
+	android:screenOrientation
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:73:13-49
+	android:label
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:72:13-35
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:71:13-37
+activity#com.autocracy.faizan.login_registration.SelectionOfCandidates
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:74:9-76:52
+	android:screenOrientation
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:76:13-49
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:75:13-50
+activity#com.autocracy.faizan.login_registration.CompanyPostStatus
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:77:9-79:52
+	android:screenOrientation
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:79:13-49
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:78:13-46
+activity#com.autocracy.faizan.login_registration.CompanyUserProfile
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:80:9-83:52
+	android:screenOrientation
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:83:13-49
+	android:label
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:82:13-39
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:81:13-47
+activity#com.autocracy.faizan.login_registration.MatchingJobs
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:84:9-87:52
+	android:screenOrientation
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:87:13-49
+	android:label
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:86:13-42
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:85:13-41
+activity#com.autocracy.faizan.login_registration.JobUserProfile
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:88:9-91:52
+	android:screenOrientation
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:91:13-49
+	android:label
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:90:13-39
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:89:13-43
+activity#com.autocracy.faizan.login_registration.ViewSpecificJobPost
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:92:9-95:52
+	android:screenOrientation
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:95:13-49
+	android:label
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:94:13-37
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:93:13-48
+activity#com.autocracy.faizan.login_registration.ViewSpecificCompanyPost
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:96:9-99:52
+	android:screenOrientation
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:99:13-49
+	android:label
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:98:13-37
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:97:13-52
+activity#com.autocracy.faizan.login_registration.NewCompanyPost
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:100:9-103:52
+	android:screenOrientation
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:103:13-49
+	android:label
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:102:13-37
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:101:13-43
+activity#com.autocracy.faizan.login_registration.ViewCompanyPosts
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:104:9-107:52
+	android:screenOrientation
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:107:13-49
+	android:label
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:106:13-39
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:105:13-45
+activity#com.autocracy.faizan.login_registration.CompanyPost
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:108:9-111:52
+	android:screenOrientation
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:111:13-49
+	android:label
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:110:13-36
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:109:13-40
+activity#com.autocracy.faizan.login_registration.companyRegistration
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:112:9-115:52
+	android:screenOrientation
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:115:13-49
+	android:label
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:114:13-49
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:113:13-48
+activity#com.autocracy.faizan.login_registration.testing
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:116:9-45
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:116:19-42
+activity#com.autocracy.faizan.login_registration.Jobs
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:117:9-120:52
+	android:screenOrientation
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:120:13-49
+	android:label
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:119:13-39
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:118:13-33
+activity#com.autocracy.faizan.login_registration.JobRegistration
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:121:9-124:52
+	android:screenOrientation
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:124:13-49
+	android:label
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:123:13-37
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:122:13-44
+activity#com.autocracy.faizan.login_registration.Homepage
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:125:9-128:52
+	android:screenOrientation
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:128:13-49
+	android:label
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:127:13-37
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:126:13-37
+activity#com.autocracy.faizan.login_registration.SignedIn
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:129:9-46
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:129:19-43
+activity#com.autocracy.faizan.login_registration.MainActivity
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:130:9-138:20
+	android:screenOrientation
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:132:13-49
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:131:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:133:13-137:29
+action#android.intent.action.MAIN
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:134:17-69
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:134:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:136:17-77
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:136:27-74
+meta-data#preloaded_fonts
+ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:140:9-142:57
+	android:resource
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:142:13-54
+	android:name
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml:141:13-43
+uses-sdk
+INJECTED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml
+INJECTED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:multidex:1.0.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/083fd22f6948fe101905fa6b56ea2538/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/083fd22f6948fe101905fa6b56ea2538/AndroidManifest.xml:20:5-43
+MERGED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:8:5-10:41
+MERGED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:8:5-10:41
+MERGED from [com.infideap.drawerbehavior:drawer-behavior:0.1.5] /home/faizan/.gradle/caches/transforms-2/files-2.1/bb8efe73a445344355c5f01c21bbfb74/AndroidManifest.xml:7:5-9:41
+MERGED from [com.infideap.drawerbehavior:drawer-behavior:0.1.5] /home/faizan/.gradle/caches/transforms-2/files-2.1/bb8efe73a445344355c5f01c21bbfb74/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/3fae63712514bdd8e72fef2bfed2a51e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/3fae63712514bdd8e72fef2bfed2a51e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:mediarouter-v7:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/e186ec9dadde2cf3b9d7339a75ffe292/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:mediarouter-v7:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/e186ec9dadde2cf3b9d7339a75ffe292/AndroidManifest.xml:20:5-44
+MERGED from [com.github.f0ris.sweetalert:library:1.5.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/a14baaac9643722019816fcf99dc61b1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.f0ris.sweetalert:library:1.5.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/a14baaac9643722019816fcf99dc61b1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.pnikosis:materialish-progress:1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/ad0c1ab06a7b619f26ef51b47ab4907e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.pnikosis:materialish-progress:1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/ad0c1ab06a7b619f26ef51b47ab4907e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/cbee498adeb6eebcd6201b7bb78163d8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/cbee498adeb6eebcd6201b7bb78163d8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/0e9529cb9414bd4fc09cfd9ec4692aca/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/0e9529cb9414bd4fc09cfd9ec4692aca/AndroidManifest.xml:5:5-7:41
+MERGED from [com.firebaseui:firebase-ui-database:3.1.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/fcbe1b26c05420ccd08c22745ecd71e8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.firebaseui:firebase-ui-database:3.1.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/fcbe1b26c05420ccd08c22745ecd71e8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-database:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/4134858bc6c244b9b65e2519901b3046/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/4134858bc6c244b9b65e2519901b3046/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-auth:16.2.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/f9f03c853ac6f17b1531e64fbd87e4de/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:16.2.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/f9f03c853ac6f17b1531e64fbd87e4de/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.7] /home/faizan/.gradle/caches/transforms-2/files-2.1/a065556161b616028139c69d9c642d6d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.7] /home/faizan/.gradle/caches/transforms-2/files-2.1/a065556161b616028139c69d9c642d6d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-storage:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/3d7f80ea10fd777144c9ffa1a8de9bdd/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/3d7f80ea10fd777144c9ffa1a8de9bdd/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/d83e254606cd73fd69383d0fe2a332a7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/d83e254606cd73fd69383d0fe2a332a7/AndroidManifest.xml:20:5-44
+MERGED from [com.github.d-max:spots-dialog:1.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/e5f069eeeb7939019189b2edb13d3764/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.d-max:spots-dialog:1.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/e5f069eeeb7939019189b2edb13d3764/AndroidManifest.xml:7:5-9:41
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/d5eea78e2dc52d8ed086d6f644763df7/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/d5eea78e2dc52d8ed086d6f644763df7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/2cf9747c86fc90d31696fc20d8f340a9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/2cf9747c86fc90d31696fc20d8f340a9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/6c4db45cfb6055c1c7ba2e90ae250630/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/6c4db45cfb6055c1c7ba2e90ae250630/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/b0664da6747b79950f2d47530b7fb86d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/b0664da6747b79950f2d47530b7fb86d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/db2cdf58898018c3e3912dc2c560a5f4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/db2cdf58898018c3e3912dc2c560a5f4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/a47e2df0d220952d1299e2c1be57c91f/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/a47e2df0d220952d1299e2c1be57c91f/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/006dd13e95d797a9bd7eca8a2217dd17/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/006dd13e95d797a9bd7eca8a2217dd17/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] /home/faizan/.gradle/caches/transforms-2/files-2.1/ab77a35dd20863eb5e7aa866b843470b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] /home/faizan/.gradle/caches/transforms-2/files-2.1/ab77a35dd20863eb5e7aa866b843470b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/c4fa581a2efa190c586f821059f2fd24/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/c4fa581a2efa190c586f821059f2fd24/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/c56e02cdecbdd501406bd789de4ff8b4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/c56e02cdecbdd501406bd789de4ff8b4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/b149a1ee8532936be0587b06cc300402/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/b149a1ee8532936be0587b06cc300402/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/b4daf2f5e8141dc7da7fe88028474c28/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/b4daf2f5e8141dc7da7fe88028474c28/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/0bd6c8dc5d5fa5e4f0cc0afe05a9c6b0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/0bd6c8dc5d5fa5e4f0cc0afe05a9c6b0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/60370ef29579168f73a8d3bbc321d078/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/60370ef29579168f73a8d3bbc321d078/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/9cc7d48def311fa1a15c5bc9ad3980a4/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/9cc7d48def311fa1a15c5bc9ad3980a4/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/50292bded9b78585a32a39bfaf21a235/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/50292bded9b78585a32a39bfaf21a235/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/9ad5f5e2fc34d5ec39dc861fdda9a0b8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/9ad5f5e2fc34d5ec39dc861fdda9a0b8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/64c28a829c9cf6b848f271f67402033a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/64c28a829c9cf6b848f271f67402033a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/03617737213144dd7d445dbf86e149a2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/03617737213144dd7d445dbf86e149a2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/72913bef9068fe1fb355b65e15c8e50d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/72913bef9068fe1fb355b65e15c8e50d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/3b183feba3bc60a712052bb28c4df34d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/3b183feba3bc60a712052bb28c4df34d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/2820cec2783fac0a2164af607a15ceac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/2820cec2783fac0a2164af607a15ceac/AndroidManifest.xml:20:5-44
+MERGED from [com.firebaseui:firebase-ui-common:3.1.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/1c8b3cb8ad05aa6edd096eb96db6e0ed/AndroidManifest.xml:8:5-10:41
+MERGED from [com.firebaseui:firebase-ui-common:3.1.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/1c8b3cb8ad05aa6edd096eb96db6e0ed/AndroidManifest.xml:8:5-10:41
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/7d80a588d3009e32a8b87f519a6764b6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/7d80a588d3009e32a8b87f519a6764b6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/6c27b272c9c5e7f816b2601b9195a650/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/6c27b272c9c5e7f816b2601b9195a650/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/870f16bfed566de783ae348a53ed7b0c/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/870f16bfed566de783ae348a53ed7b0c/AndroidManifest.xml:6:5-8:41
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/faizan/.gradle/caches/transforms-2/files-2.1/064a4b960d29348af9fa7d1725eb5f32/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/faizan/.gradle/caches/transforms-2/files-2.1/064a4b960d29348af9fa7d1725eb5f32/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/080ef07031b009d82e2f9712ae47fffe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/080ef07031b009d82e2f9712ae47fffe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/0f153f095c57ffe0b79b4b7fb6d33d4c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/0f153f095c57ffe0b79b4b7fb6d33d4c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/21dd2f6d0d1681b860df538dc5c5d07f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/21dd2f6d0d1681b860df538dc5c5d07f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:palette-v7:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/4e32312b5e1e77eba77c9ade17023d9f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:palette-v7:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/4e32312b5e1e77eba77c9ade17023d9f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/182c12d33ec93db179875af7adde56d6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/182c12d33ec93db179875af7adde56d6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/a31efa87b0f8d33df023f8aab3565b2c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/a31efa87b0f8d33df023f8aab3565b2c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/2421476ee4545d6c993b78fd4aee6941/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/2421476ee4545d6c993b78fd4aee6941/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/2d85759175ff6f989ec22e1a2c9b2468/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/2d85759175ff6f989ec22e1a2c9b2468/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/1d262cd70d080a7b888ab2829c5387dd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/1d262cd70d080a7b888ab2829c5387dd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/9db65eb0cab56f80d7ce818b2bcfa976/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/9db65eb0cab56f80d7ce818b2bcfa976/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/71a1b0f48ff6ac60acfef6dd207bb4a0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/71a1b0f48ff6ac60acfef6dd207bb4a0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/79c3edd3a3b496189c37316ea4e46847/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/79c3edd3a3b496189c37316ea4e46847/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/1f1a05ebcd610733ff34ad7d51e01f02/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/1f1a05ebcd610733ff34ad7d51e01f02/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/ce436422b2b4588bb98e4e0d5d308e2b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/ce436422b2b4588bb98e4e0d5d308e2b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/f28e759cf50c78ec6e9c33038bb5e45e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/f28e759cf50c78ec6e9c33038bb5e45e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/b7e3444cbf8054d3fc8085d73ceed90b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/b7e3444cbf8054d3fc8085d73ceed90b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/d6de0b9088534be12286f56f64d51ca4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/d6de0b9088534be12286f56f64d51ca4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/04c75418dcc23360cbbd4384315f53b2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/04c75418dcc23360cbbd4384315f53b2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/038b602fa8a941fff692f8c29eae2b3a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/038b602fa8a941fff692f8c29eae2b3a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/91a96a7245835148086085320a3a7a78/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/91a96a7245835148086085320a3a7a78/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/0ed0fd4a6a464bc31b9a06997395f348/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/0ed0fd4a6a464bc31b9a06997395f348/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/fd019d43a8f8b90625c920c7c14e034a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/fd019d43a8f8b90625c920c7c14e034a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/2b5179596b19434eb75ec9173efeb178/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/2b5179596b19434eb75ec9173efeb178/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/6c7a6ebd118408ecda0d199741ad94db/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/6c7a6ebd118408ecda0d199741ad94db/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/f273964f8ce4cfe18fae81b995e93299/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/f273964f8ce4cfe18fae81b995e93299/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/acc6e9051ee308757b056e0cb1d3ad05/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/acc6e9051ee308757b056e0cb1d3ad05/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/34ffd44f4e4fbc4ece1e3bdab559d3d1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/34ffd44f4e4fbc4ece1e3bdab559d3d1/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/3897e5e41f9b6c7004f26e17ac330796/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/3897e5e41f9b6c7004f26e17ac330796/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:exifinterface:27.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/3d6210c7b7509ceca86593b3e6409ddf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/3d6210c7b7509ceca86593b3e6409ddf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/59becb4f4463ee5ab5208b9ca7230584/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/59becb4f4463ee5ab5208b9ca7230584/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/7461a7de285806acfd2623e8ec228745/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/7461a7de285806acfd2623e8ec228745/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/0f751b4e9b786b88bcb911882599368b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/0f751b4e9b786b88bcb911882599368b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/0625db01fe2da0d6e7871bcf6c45cee5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/0625db01fe2da0d6e7871bcf6c45cee5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/92a4bafecb47ff9ce8fb4654f7f96189/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/92a4bafecb47ff9ce8fb4654f7f96189/AndroidManifest.xml:5:5-44
+INJECTED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml
+INJECTED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml
+		INJECTED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml
+		ADDED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml
+		INJECTED from /home/faizan/Downloads/Login_Registration/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:12:5-79
+MERGED from [com.google.firebase:firebase-database:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/4134858bc6c244b9b65e2519901b3046/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/4134858bc6c244b9b65e2519901b3046/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-storage:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/3d7f80ea10fd777144c9ffa1a8de9bdd/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/3d7f80ea10fd777144c9ffa1a8de9bdd/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] /home/faizan/.gradle/caches/transforms-2/files-2.1/ab77a35dd20863eb5e7aa866b843470b/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] /home/faizan/.gradle/caches/transforms-2/files-2.1/ab77a35dd20863eb5e7aa866b843470b/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/c4fa581a2efa190c586f821059f2fd24/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/c4fa581a2efa190c586f821059f2fd24/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/b149a1ee8532936be0587b06cc300402/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/b149a1ee8532936be0587b06cc300402/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/b4daf2f5e8141dc7da7fe88028474c28/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/b4daf2f5e8141dc7da7fe88028474c28/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:12:22-76
+meta-data#com.google.android.gms.version
+ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:16:9-18:69
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/3b183feba3bc60a712052bb28c4df34d/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/3b183feba3bc60a712052bb28c4df34d/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:18:13-66
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:17:13-58
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:19:9-21:63
+	android:value
+		ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:21:13-60
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:20:13-58
+activity#com.firebase.ui.auth.KickoffActivity
+ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:23:9-27:61
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:26:13-29
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:27:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:24:13-64
+activity#com.firebase.ui.auth.ui.email.RecoverPasswordActivity
+ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:28:9-31:75
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:31:13-72
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:29:13-81
+activity#com.firebase.ui.auth.ui.email.EmailActivity
+ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:32:9-36:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:35:13-56
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:36:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:33:13-71
+activity#com.firebase.ui.auth.ui.phone.PhoneActivity
+ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:37:9-41:77
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:40:13-66
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:41:13-74
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:38:13-71
+activity#com.firebase.ui.auth.ui.idp.WelcomeBackIdpPrompt
+ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:42:9-45:73
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:45:13-70
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:44:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:43:13-76
+activity#com.firebase.ui.auth.ui.email.WelcomeBackPasswordPrompt
+ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:46:9-50:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:49:13-75
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:50:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:48:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:47:13-83
+activity#com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity
+ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:51:9-54:65
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:54:13-62
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:53:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:52:13-80
+activity#com.facebook.FacebookActivity
+ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:55:9-59:48
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:58:13-45
+	tools:ignore
+		ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:59:13-45
+	android:configChanges
+		ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:57:13-96
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:56:13-57
+activity#com.facebook.CustomTabActivity
+ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:60:9-72:20
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:62:13-36
+	tools:ignore
+		ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:63:13-45
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:61:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/facebook_login_protocol_scheme
+ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:64:13-71:29
+action#android.intent.action.VIEW
+ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:65:17-69
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:65:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:67:17-76
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:67:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:68:17-78
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:68:27-75
+data
+ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:70:17-81
+	android:scheme
+		ADDED from [com.firebaseui:firebase-ui-auth:3.1.2] /home/faizan/.gradle/caches/transforms-2/files-2.1/6bf659a1b5fb41552e6ac101346905a2/AndroidManifest.xml:70:23-78
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-database:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/4134858bc6c244b9b65e2519901b3046/AndroidManifest.xml:29:9-33:19
+MERGED from [com.google.firebase:firebase-auth:16.2.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/f9f03c853ac6f17b1531e64fbd87e4de/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-auth:16.2.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/f9f03c853ac6f17b1531e64fbd87e4de/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-storage:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/3d7f80ea10fd777144c9ffa1a8de9bdd/AndroidManifest.xml:30:9-34:19
+MERGED from [com.google.firebase:firebase-storage:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/3d7f80ea10fd777144c9ffa1a8de9bdd/AndroidManifest.xml:30:9-34:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] /home/faizan/.gradle/caches/transforms-2/files-2.1/ab77a35dd20863eb5e7aa866b843470b/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] /home/faizan/.gradle/caches/transforms-2/files-2.1/ab77a35dd20863eb5e7aa866b843470b/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/b4daf2f5e8141dc7da7fe88028474c28/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/b4daf2f5e8141dc7da7fe88028474c28/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/f9f03c853ac6f17b1531e64fbd87e4de/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-database:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/4134858bc6c244b9b65e2519901b3046/AndroidManifest.xml:29:18-89
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/4134858bc6c244b9b65e2519901b3046/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/4134858bc6c244b9b65e2519901b3046/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/4134858bc6c244b9b65e2519901b3046/AndroidManifest.xml:31:17-109
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:16.2.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/f9f03c853ac6f17b1531e64fbd87e4de/AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/f9f03c853ac6f17b1531e64fbd87e4de/AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/f9f03c853ac6f17b1531e64fbd87e4de/AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/f9f03c853ac6f17b1531e64fbd87e4de/AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/f9f03c853ac6f17b1531e64fbd87e4de/AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/f9f03c853ac6f17b1531e64fbd87e4de/AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/f9f03c853ac6f17b1531e64fbd87e4de/AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/f9f03c853ac6f17b1531e64fbd87e4de/AndroidManifest.xml:25:13-85
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:16.2.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/f9f03c853ac6f17b1531e64fbd87e4de/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/f9f03c853ac6f17b1531e64fbd87e4de/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/f9f03c853ac6f17b1531e64fbd87e4de/AndroidManifest.xml:37:17-109
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/3d7f80ea10fd777144c9ffa1a8de9bdd/AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/3d7f80ea10fd777144c9ffa1a8de9bdd/AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/3d7f80ea10fd777144c9ffa1a8de9bdd/AndroidManifest.xml:32:17-107
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/d83e254606cd73fd69383d0fe2a332a7/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/d83e254606cd73fd69383d0fe2a332a7/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/d83e254606cd73fd69383d0fe2a332a7/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/d83e254606cd73fd69383d0fe2a332a7/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/d83e254606cd73fd69383d0fe2a332a7/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/d83e254606cd73fd69383d0fe2a332a7/AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/d83e254606cd73fd69383d0fe2a332a7/AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/d83e254606cd73fd69383d0fe2a332a7/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/d83e254606cd73fd69383d0fe2a332a7/AndroidManifest.xml:34:13-89
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] /home/faizan/.gradle/caches/transforms-2/files-2.1/ab77a35dd20863eb5e7aa866b843470b/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/c4fa581a2efa190c586f821059f2fd24/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/c4fa581a2efa190c586f821059f2fd24/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/b149a1ee8532936be0587b06cc300402/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/b149a1ee8532936be0587b06cc300402/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/b4daf2f5e8141dc7da7fe88028474c28/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/b4daf2f5e8141dc7da7fe88028474c28/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] /home/faizan/.gradle/caches/transforms-2/files-2.1/ab77a35dd20863eb5e7aa866b843470b/AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] /home/faizan/.gradle/caches/transforms-2/files-2.1/ab77a35dd20863eb5e7aa866b843470b/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] /home/faizan/.gradle/caches/transforms-2/files-2.1/ab77a35dd20863eb5e7aa866b843470b/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] /home/faizan/.gradle/caches/transforms-2/files-2.1/ab77a35dd20863eb5e7aa866b843470b/AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/c4fa581a2efa190c586f821059f2fd24/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/b149a1ee8532936be0587b06cc300402/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/b149a1ee8532936be0587b06cc300402/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/c4fa581a2efa190c586f821059f2fd24/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/c4fa581a2efa190c586f821059f2fd24/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/c4fa581a2efa190c586f821059f2fd24/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/c4fa581a2efa190c586f821059f2fd24/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/c4fa581a2efa190c586f821059f2fd24/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/c4fa581a2efa190c586f821059f2fd24/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/b149a1ee8532936be0587b06cc300402/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/b149a1ee8532936be0587b06cc300402/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/c4fa581a2efa190c586f821059f2fd24/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/c4fa581a2efa190c586f821059f2fd24/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/c4fa581a2efa190c586f821059f2fd24/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/c4fa581a2efa190c586f821059f2fd24/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/c4fa581a2efa190c586f821059f2fd24/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/c4fa581a2efa190c586f821059f2fd24/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/c4fa581a2efa190c586f821059f2fd24/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/c4fa581a2efa190c586f821059f2fd24/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/c4fa581a2efa190c586f821059f2fd24/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/c4fa581a2efa190c586f821059f2fd24/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/c4fa581a2efa190c586f821059f2fd24/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/c4fa581a2efa190c586f821059f2fd24/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/c4fa581a2efa190c586f821059f2fd24/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/c4fa581a2efa190c586f821059f2fd24/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/c4fa581a2efa190c586f821059f2fd24/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/c4fa581a2efa190c586f821059f2fd24/AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/b4daf2f5e8141dc7da7fe88028474c28/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/b4daf2f5e8141dc7da7fe88028474c28/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/b4daf2f5e8141dc7da7fe88028474c28/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/b4daf2f5e8141dc7da7fe88028474c28/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/b4daf2f5e8141dc7da7fe88028474c28/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/b4daf2f5e8141dc7da7fe88028474c28/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/b4daf2f5e8141dc7da7fe88028474c28/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/b4daf2f5e8141dc7da7fe88028474c28/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/b4daf2f5e8141dc7da7fe88028474c28/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/b4daf2f5e8141dc7da7fe88028474c28/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/b4daf2f5e8141dc7da7fe88028474c28/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/b4daf2f5e8141dc7da7fe88028474c28/AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/b4daf2f5e8141dc7da7fe88028474c28/AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/b4daf2f5e8141dc7da7fe88028474c28/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/b4daf2f5e8141dc7da7fe88028474c28/AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/b4daf2f5e8141dc7da7fe88028474c28/AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/b4daf2f5e8141dc7da7fe88028474c28/AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/b4daf2f5e8141dc7da7fe88028474c28/AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/faizan/.gradle/caches/transforms-2/files-2.1/b4daf2f5e8141dc7da7fe88028474c28/AndroidManifest.xml:54:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/60370ef29579168f73a8d3bbc321d078/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/60370ef29579168f73a8d3bbc321d078/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/60370ef29579168f73a8d3bbc321d078/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/60370ef29579168f73a8d3bbc321d078/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/9cc7d48def311fa1a15c5bc9ad3980a4/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/9cc7d48def311fa1a15c5bc9ad3980a4/AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/9cc7d48def311fa1a15c5bc9ad3980a4/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/9cc7d48def311fa1a15c5bc9ad3980a4/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.1.0] /home/faizan/.gradle/caches/transforms-2/files-2.1/9cc7d48def311fa1a15c5bc9ad3980a4/AndroidManifest.xml:13:13-77
+provider#android.arch.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [android.arch.lifecycle:extensions:1.1.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/7d80a588d3009e32a8b87f519a6764b6/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/7d80a588d3009e32a8b87f519a6764b6/AndroidManifest.xml:25:13-68
+	android:multiprocess
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/7d80a588d3009e32a8b87f519a6764b6/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/7d80a588d3009e32a8b87f519a6764b6/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /home/faizan/.gradle/caches/transforms-2/files-2.1/7d80a588d3009e32a8b87f519a6764b6/AndroidManifest.xml:24:13-83
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /home/faizan/.gradle/caches/transforms-2/files-2.1/064a4b960d29348af9fa7d1725eb5f32/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/faizan/.gradle/caches/transforms-2/files-2.1/064a4b960d29348af9fa7d1725eb5f32/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/faizan/.gradle/caches/transforms-2/files-2.1/064a4b960d29348af9fa7d1725eb5f32/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/faizan/.gradle/caches/transforms-2/files-2.1/064a4b960d29348af9fa7d1725eb5f32/AndroidManifest.xml:9:13-64

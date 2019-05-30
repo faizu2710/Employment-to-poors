@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:layout_below="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:id="@+id/bg"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="10dp">
+
+    <RelativeLayout
+        android:id="@+id/rbackg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true">
+
+        <LinearLayout
+            android:id="@+id/list_root"
+            android:layout_width="388dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/cardview_bg"
+            android:clickable="true">
+
+            <LinearLayout
+                android:id="@+id/l2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <!--<ImageView-->
+                <!--android:id="@+id/profile_image"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="55dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:src="@drawable/person3"-->
+                <!--/>-->
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3.9"
+
+
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:id="@+id/jobtitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Jessyka swan"
+                        android:textColor="#fff"
+                        android:textSize="22dp"
+
+                        />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_marginTop="-10dp"
+                        android:id="@+id/complocation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="C location"
+                        android:textStyle="bold"
+                        android:textColor="#fff"
+                        android:textSize="14dp" />
+
+
+                    <!--<TextView-->
+                        <!--android:layout_marginTop="5dp"-->
+                        <!--android:id="@+id/compSkillsRequired"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="Skills Required"-->
+                        <!--android:textColor="@color/colorLightGray"-->
+                        <!--android:textSize="14dp" />-->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/compSalary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Salary"
+                        android:textStyle="bold"
+                        android:textColor="#fff"
+                        android:textSize="16dp" />
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/Rs"
+       android:textColor="#fff"
+       android:textSize="25dp"/>
+
+</LinearLayout>
+
+                    <TextView
+                        android:textSize="10dp"
+                        android:layout_marginTop="15dp"
+                        android:id="@+id/jobdatetime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#fff"
+                        android:textStyle="italic" />
+
+                </LinearLayout>
+                <!--<LinearLayout-->
+                    <!--android:layout_marginTop="0dp"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="65dp"-->
+
+                    <!--android:layout_weight="1.5"-->
+                    <!--android:orientation="horizontal">-->
+                    <!--&lt;!&ndash;<LinearLayout&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_height="20dp">&ndash;&gt;-->
+                        <!--&lt;!&ndash;&ndash;&gt;-->
+                    <!--&lt;!&ndash;</LinearLayout>&ndash;&gt;-->
+                    <!--<TextView-->
+                        <!--android:layout_marginTop="40dp"-->
+                        <!--android:layout_marginLeft="14dp"-->
+
+                        <!--android:id="@+id/openingslabel"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="openings"-->
+                        <!--android:textColor="#0ED2F7"-->
+                        <!--android:textSize="14dp"-->
+                        <!--android:textStyle="bold" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/openings"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginLeft="-35dp"-->
+                        <!--android:layout_marginTop="20dp"-->
+                        <!--android:text="hi"-->
+                        <!--android:textColor="#0ED2F7" />-->
+                <!--</LinearLayout>-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content">-->
+                    <!--<TextView-->
+                        <!--android:id="@+id/appliedlabel"-->
+                        <!--android:visibility="invisible"-->
+                        <!--android:layout_marginTop="20dp"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="Applied !!"/>-->
+                <!--</LinearLayout>-->
+
+                    <LinearLayout
+
+                        android:layout_marginTop="80dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:visibility="invisible"
+                            android:text="Applied"
+                            android:textColor="#fff"
+                            android:textSize="15dp"
+                            android:id="@+id/applied"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center_horizontal"
+                            android:clickable="true"
+                            />
+
+
+
+
+                </LinearLayout>
+
+                <!--<ImageView-->
+                    <!---->
+                    <!--android:id="@+id/applied"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="1"-->
+                    <!--app:srcCompat="@drawable/ic_check_black_24dp"-->
+                    <!--layout_below:ignore="VectorDrawableCompat" />-->
+
+
+                <!--<RelativeLayout-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight="1.2"-->
+                    <!--android:gravity="center">-->
+
+
+                    <!--<Button-->
+                        <!--android:id="@+id/view"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="50dp"-->
+
+                        <!--android:layout_marginTop="0dp"-->
+                        <!--android:background="@drawable/circleblue"-->
+                        <!--android:text="View"-->
+                        <!--android:textColor="#fff"-->
+                        <!--android:textSize="15sp"-->
+                        <!--android:textStyle="bold" />-->
+
+                <!--</RelativeLayout>-->
+
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

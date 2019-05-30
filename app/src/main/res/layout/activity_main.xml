@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="144dp"
+            android:layout_height="182dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/logotext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="-20dp"
+            android:fontFamily="@font/galada"
+            android:text="Autocracy"
+            android:textSize="35dp"
+            tools:fontFamily="@font/aladin" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:textAlignment="center">
+    <android.support.design.widget.TextInputLayout
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout"
+        android:layout_marginTop="230dp"
+        app:boxStrokeColor="#000"
+        >
+    <EditText
+        android:textAlignment="center"
+        android:id="@+id/etnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="248dp"
+        android:hint="Phone Number:"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName|number"
+        tools:ignore="RtlCompat" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:id="@+id/sendotp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/roundedbtn"
+        android:text="Send OTP"
+        android:textColor="#B2FEFA" />
+
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="50dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="#000"
+        app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">
+
+        <EditText
+            android:textAlignment="center"
+            android:id="@+id/etotp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:hint="OTP"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName|number"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/loginbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/roundedbtn"
+        android:text="Login"
+        android:textColor="#B2FEFA">
+
+    </Button>
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

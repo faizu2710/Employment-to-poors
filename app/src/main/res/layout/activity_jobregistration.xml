@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".JobRegistration">
+<android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+    app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout"
+    android:layout_marginLeft="65dp"
+    android:layout_marginTop="10dp"
+    app:boxStrokeColor="#7c4dff"
+    >
+
+    <EditText
+        android:id="@+id/name"
+        android:textDirection="ltr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+
+        android:layout_marginTop="35dp"
+
+        android:hint="Full Name:"
+        android:textSize="13dp"
+        android:inputType="textPersonName"/>
+</android.support.design.widget.TextInputLayout>
+
+<android.support.design.widget.TextInputLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_marginTop="85dp"
+    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+    app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout"
+    app:boxStrokeColor="#7c4dff"
+    android:layout_marginLeft="65dp">
+
+
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="99dp"
+        android:ems="10"
+        android:textSize="13dp"
+        android:hint="Address:"
+        android:inputType="textPostalAddress"
+        />
+</android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="165dp"
+        tools:ignore="UnknownId"
+        android:layout_alignParentLeft="true"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout"
+        app:boxStrokeColor="#7c4dff"
+        android:layout_marginLeft="65dp">
+
+        <EditText
+
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="99dp"
+            android:layout_marginEnd="30dp"
+            android:ems="10"
+            android:textSize="13dp"
+            android:hint="Your Age:"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <!--<android.support.design.widget.TextInputLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginBottom="-263dp"-->
+        <!--android:layout_alignParentLeft="true">-->
+
+        <TextView
+            android:id="@+id/gendertextview"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="265dp"
+
+            android:layout_marginBottom="300dp"
+            android:fontFamily="@font/galada"
+            android:text="Gender : "
+            android:textSize="25dp" />
+    <!--</android.support.design.widget.TextInputLayout>-->
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="360dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout"
+        app:boxStrokeColor="#7c4dff"
+        android:layout_marginLeft="65dp"
+        android:layout_alignParentLeft="true">
+
+
+        <EditText
+            android:id="@+id/aadhar"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="92dp"
+            android:layout_marginBottom="186dp"
+            android:ems="10"
+            android:textSize="13dp"
+            android:hint="Aadhar card number:"
+            android:inputType="phone"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="425dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout"
+
+        android:layout_marginLeft="65dp"
+        app:boxStrokeColor="#7c4dff"
+        >
+    <EditText
+        android:id="@+id/qualification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:textSize="13dp"
+
+
+        android:hint="Qualification (optional):"
+
+        android:inputType="textPersonName"
+        />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="490dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout"
+        app:boxStrokeColor="#7c4dff"
+        android:layout_marginLeft="65dp">
+
+    <EditText
+        android:id="@+id/skills"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:textSize="13dp"
+
+        android:ems="10"
+        android:hint="Skills"
+        android:inputType="textPersonName"
+         />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginBottom="0dp"
+        android:background="@color/fui_transparent"
+        android:text="Next"
+        android:textSize="20sp" />
+
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="127dp"
+        android:layout_marginLeft="127dp"
+        android:layout_marginTop="248dp">
+
+
+        <RadioButton
+            android:id="@+id/radiomale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="checkButton"
+            android:text="Male"
+            android:buttonTint="#7c4dff"/>
+
+        <RadioButton
+            android:id="@+id/radiofemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="checkButton"
+            android:text="Female"
+            android:buttonTint="#7c4dff"/>
+
+        <RadioButton
+            android:id="@+id/radioother"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="checkButton"
+            android:text="Other"
+            android:buttonTint="#7c4dff"
+            />
+
+
+    </RadioGroup>
+
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">165183641810-f5o64rdo1if9bjmur492cfup755ocfvd.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://autocracy-6b360.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">165183641810</string>
+    <string name="google_api_key" translatable="false">AIzaSyCAZnqoT5vjxebSHwZxegDTDSGwsaEGb2s</string>
+    <string name="google_app_id" translatable="false">1:165183641810:android:4f58fabf97a06fb6</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCAZnqoT5vjxebSHwZxegDTDSGwsaEGb2s</string>
+    <string name="google_storage_bucket" translatable="false">autocracy-6b360.appspot.com</string>
+    <string name="project_id" translatable="false">autocracy-6b360</string>
+</resources>

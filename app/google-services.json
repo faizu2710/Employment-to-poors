@@ -1,0 +1,115 @@
+{
+  "project_info": {
+    "project_number": "165183641810",
+    "firebase_url": "https://autocracy-6b360.firebaseio.com",
+    "project_id": "autocracy-6b360",
+    "storage_bucket": "autocracy-6b360.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165183641810:android:4f58fabf97a06fb6",
+        "android_client_info": {
+          "package_name": "com.autocracy.faizan.login_registration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165183641810-helohmlnkarmglalgb0trcno7r6nkhvu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.autocracy.faizan.login_registration",
+            "certificate_hash": "2ef97f2492087b0f3cbc2b3a314818268cdb8258"
+          }
+        },
+        {
+          "client_id": "165183641810-3nauv2a60hbe9ga32am73d7rm86sr6je.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.autocracy.faizan.login_registration",
+            "certificate_hash": "accd9e57d367949418bf9fe4621fb8363aac526a"
+          }
+        },
+        {
+          "client_id": "165183641810-sameojikb7u4gnle783cs58rbc6etfr6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.autocracy.faizan.login_registration",
+            "certificate_hash": "003242922f32f4a1975af61f5f21d30b26fa042a"
+          }
+        },
+        {
+          "client_id": "165183641810-f5o64rdo1if9bjmur492cfup755ocfvd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAZnqoT5vjxebSHwZxegDTDSGwsaEGb2s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "165183641810-f5o64rdo1if9bjmur492cfup755ocfvd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165183641810:android:87e578ae7908ca4f",
+        "android_client_info": {
+          "package_name": "faizan.autocracy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165183641810-d4if4fa87ddqopfrp2a49tovnqpr2re3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "faizan.autocracy",
+            "certificate_hash": "85275bb3e9aa4de6d6341a5990971b4269900f0a"
+          }
+        },
+        {
+          "client_id": "165183641810-f5o64rdo1if9bjmur492cfup755ocfvd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAZnqoT5vjxebSHwZxegDTDSGwsaEGb2s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "165183641810-f5o64rdo1if9bjmur492cfup755ocfvd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

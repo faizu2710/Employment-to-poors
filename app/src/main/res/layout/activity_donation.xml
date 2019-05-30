@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <!--android:background="@drawable/background">-->
+
+
+    <LinearLayout
+        android:background="@drawable/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="-40dp"
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Donation"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout"
+            app:boxStrokeColor="#7c4dff"
+            >
+
+            <EditText
+                android:id="@+id/name"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:drawablePadding="15dp"
+                android:ems="10"
+                android:hint="Name"
+                android:inputType="textPersonName"
+                android:textDirection="ltr"
+                android:textSize="13dp" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout"
+            app:boxStrokeColor="#7c4dff"
+            >
+
+            <EditText
+                android:id="@+id/address"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:drawablePadding="15dp"
+                android:ems="10"
+                android:hint="Address"
+                android:inputType="textPostalAddress" />
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="What would you like to donate?"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(Clothes, Books, Toys, etc)" />
+
+        <RadioButton
+            android:clickable="true"
+            android:layout_marginTop="30dp"
+            android:id="@+id/material"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="ngosuggest"
+            android:text="Material" />
+
+        <RadioButton
+            android:clickable="true"
+            android:layout_marginTop="15dp"
+            android:id="@+id/money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Money" />
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>

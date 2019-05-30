@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        tools:context=".JobRegistration">
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="10dp"
+            app:boxStrokeColor="#7c4dff"
+            >
+
+            <EditText
+                android:id="@+id/cname"
+                android:textDirection="ltr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+
+                android:layout_marginTop="35dp"
+
+                android:hint="Company Name:"
+                android:textSize="13dp"
+                android:inputType="textPersonName"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="100dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout"
+            app:boxStrokeColor="#7c4dff"
+            android:layout_marginLeft="65dp">
+
+
+
+            <EditText
+                android:id="@+id/caddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="99dp"
+                android:ems="10"
+                android:textSize="13dp"
+                android:hint="Address:"
+                android:inputType="textPostalAddress"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="190dp"
+            tools:ignore="UnknownId"
+            android:layout_alignParentLeft="true"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout"
+            app:boxStrokeColor="#7c4dff"
+            android:layout_marginLeft="65dp">
+
+            <EditText
+
+                android:id="@+id/cmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="99dp"
+                android:layout_marginEnd="30dp"
+                android:ems="10"
+                android:textSize="13dp"
+                android:hint="email"
+                android:inputType="textEmailAddress" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="280dp"
+            tools:ignore="UnknownId"
+            android:layout_alignParentLeft="true"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout"
+            app:boxStrokeColor="#7c4dff"
+            android:layout_marginLeft="65dp">
+
+            <EditText
+
+                android:id="@+id/cwebsite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="99dp"
+                android:layout_marginEnd="30dp"
+                android:ems="10"
+                android:textSize="13dp"
+                android:hint="Company Website"
+                android:inputType="text" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="23dp"
+            android:layout_marginRight="23dp"
+            android:layout_marginBottom="185dp"
+            android:background="@color/fui_transparent"
+            android:text="Next"
+            android:textSize="20sp" />
+
+
+    </RelativeLayout>
